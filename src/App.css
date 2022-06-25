@@ -1,0 +1,367 @@
+/* body{
+  overflow: hidden;
+} */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* HEADER STYLE */
+
+.header {
+  margin-top: 17px;
+}
+.header-container{
+  margin-bottom: -57px;
+}
+
+.header-li {
+  list-style: none;
+}
+
+.mainbg {
+  background-image: url(http://www.studentdesk.in/dist/img/bg_studentdesk_in.jpg);
+  height: 33%;
+  width: 100%;
+  padding: 165px 0px;
+  margin-top: 84px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.button-box{
+  margin-top: 50px;
+}
+.button-box button {
+  margin: 3 20px;
+  font-size: 16px;
+  margin-top: 11px;
+  font-weight: 600;
+  padding: 10px 14px;
+}
+
+div .search-box{
+  background: #fafafa;
+  border: 1px solid #eee;
+  color: #5e5e5e;
+  font-family: arial,sans-serif;
+  padding: 10px;
+  width: 47%;
+  font-size: 16px;
+  margin: 0;
+  height: 38px;
+  border-radius: 10px 0 0 10px;
+}
+.fa-magnifying-glass {
+  background: #76ba5c;
+  font-size: 17px;
+  padding: 9px 10px;
+  height: 38px;
+  border-radius: 0px 7px 7px 2px;
+}
+.info{
+  margin-top: 50px;
+}
+div ul li {
+  cursor: pointer;
+
+  list-style: none;
+}
+.searchinput{
+margin-top: 35px;
+}
+.SearchItems {
+  margin-top: 20px;
+  margin-bottom: -27px;
+}
+
+.SearchItems ul li {
+  font-size: 20px;
+}
+.info-section{
+  color: #576f7d;
+  font-weight: 600;
+  text-align: center;
+}
+.info-section{
+  /* height: 300%; */
+  margin-top: 170px;
+  margin-bottom: 120px;
+}
+
+/* ----------------------SLIDER-------------------------- */
+.title-box {
+  text-align: center;
+  color: #576f7d;
+  font-weight: 600;
+}
+.under-line {
+  border: 2px solid #76ba5c;
+  width: 24%;
+  margin: 0 auto 15px;
+}
+.slick-slide {
+    height: 220px;
+    /* border: 4px solid #F25634; */
+    box-sizing: border-box;
+}
+
+.slick-slide img {
+    height: 100%;
+    margin: 22px;
+    width: 170px;
+    /* border: 2.5px solid white; */
+    box-sizing: border-box;
+} 
+/* .slick-arrow .slick-prev{
+  background-color: black;
+} */
+
+
+.slick-next:before {
+  content: "Next" !important;
+  background-color: green;
+
+  padding: 3px 5px 6px 6px;
+  border-radius: 5px;
+  
+}
+
+.slick-prev:before {
+  content: 'Prev' !important;
+  background-color: green;
+
+  margin: 0px 0px 6px -55px;
+  padding: 3px 5px 6px 6px;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+/*--------------------- BOOKS DETAILS--------------- */
+
+ .book-details{
+  margin: -15px 0px 0px 30px;
+  color: #76ba5c;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    font-weight: 600;
+}
+.book-price{
+  margin: 8px 0px 0px -120px;
+  color: #76ba5c;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    font-weight: 600;
+}
+ .viewMore-btn {
+  width: 130px;
+  cursor: hand;
+  text-align: center;
+  background-color: #76ba5c;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+} 
+
+.viewmore-btn{
+  margin: 23px 0px 0px 22px
+}
+
+/* ----------HOW IT WORKS SECTION -----------------*/
+
+.howItWork-title{
+  text-align: center;
+  color: #576f7d;
+  font-weight: 600; 
+}
+.howItWork-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 82px;
+}
+.howItWork-section {
+  margin: 0px 0px 100px 0px;
+}
+/*----------------------- NEWS SLIDER-------------------- */
+div .News{
+  height: 220px;
+  background: #f3f3f3;
+}
+.NewsH3{
+    color: #576f7d;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+}
+.news-under-line{
+    border: 2px solid #76ba5c;
+    width: 28%;
+    margin: 7px auto 15px;
+}
+
+/*------------------------- FOOTER-------------------------- */
+.footer{
+  overflow-x: hidden;
+  background: #3f3f40;
+}
+.footer-h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+
+}
+.row div ul li{
+  color: #908F8F;
+}
+.footer-under-line{
+  border: 2px solid #76ba5c;
+  width: 52%;
+}
+.copyright{
+  color: #908F8F;
+  background:black;
+}
+
+.fa-facebook,.fa-google-plus-g, .fa-twitter {
+  color: #908F8F;
+  font-size: 18px;
+  margin: 0px 13px 0px 9px;
+}
+
+/* BOOK LISTING---------------------------- */
+
+.listing-details {
+  background-color: #FFF;
+  width: 80%;
+  float: left;
+  margin-left: 132px;
+  overflow-x: hidden;
+  padding: 15px 0;
+}
+.listing-details .listing-box {
+  width: 100%;
+  float: left;
+  box-shadow: 1px 0 4px #d1d1d1;
+  border: 1px solid #d1d1d1;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.listing-details .listing-box .img-box {
+  width: 15%;
+  float: left;
+}
+.img-box .book-images{
+  max-width: 142px;
+}
+.books-details-box{
+  width: 55%;
+  float: left;
+  padding: 0 15px;
+}
+.author-name{
+  margin: 0 0 4px;
+  float: left;
+  color: #666;
+  min-width: 100%;
+}
+.city-name{
+    margin: 0 0 4px;
+    float: left;
+    color: #666;
+    min-width: 100%;
+}
+.posted-by{
+    margin: 0 0 4px;
+    float: left;
+    color: #666;
+    min-width: 100%;
+}
+.default-img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.buyBook-btn, .exchangeBook-btn{
+  background-color: #76ba5c;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin: 0 10px 0 0;
+  text-align: center;
+}
+.price-box{
+  width: 25%;
+  float: left;
+  position: absolute;
+  right: 4rem;
+  margin-top:60px ;
+}
+.price-box h4 {
+  color: #76ba5c;
+  margin: 0 0 25px;
+  font-size: 16px;
+}
+
+
+/* -------------PARTICULAR BOOK DETAILES------------------------- */
+
+.title-under-line{
+    border: 2px solid #76ba5c;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.book-box{
+  margin: 50px 70px 8px 70px;
+}
